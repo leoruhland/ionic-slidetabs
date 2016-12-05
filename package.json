@@ -1,0 +1,32 @@
+{
+  "name": "ionic-slidetabs",
+  "version": "0.0.1",
+  "description": "Slidetabs for Ionic 2",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "ngc": "ngc",
+    "build": "rm -rf aot dist && npm run ngc",
+    "publishPackage": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoruhland/ionic-slidetabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leoruhland/ionic-slidetabs/issues"
+  },
+  "homepage": "https://github.com/leoruhland/ionic-slidetabs#readme",
+  "devDependencies": {
+    "@angular/common": "^2.1.1",
+    "@angular/compiler": "^2.1.1",
+    "@angular/compiler-cli": "^2.1.1",
+    "@angular/core": "^2.1.1",
+    "@angular/platform-browser": "^2.1.1",
+    "@types/node": "^6.0.49",
+    "typescript": "^2.0.6"
+  }
+}
