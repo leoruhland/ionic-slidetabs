@@ -19,4 +19,4 @@ import { Slidetabs } from './components/slidetabs';
     CUSTOM_ELEMENTS_SCHEMA
   ]
 })
-export class MyModule {}
+export class SlidetabsModule {}
